@@ -1,0 +1,167 @@
+{
+  "common": {
+    "language": {
+      "select": "Välj språk",
+      "sv": "Svenska",
+      "en": "Engelska"
+    }
+  },
+  "settings": {
+    "title": "Inställningar",
+    "common": {
+      "edit": "Redigera",
+      "save": "Spara",
+      "cancel": "Avbryt"
+    },
+    "profile": {
+      "title": "Profil",
+      "name": "Namn",
+      "email": "E-post",
+      "bio": "Om mig",
+      "role": "Roll",
+      "edit": {
+        "title": "Redigera profil",
+        "nameLabel": "Namn",
+        "emailLabel": "E-postadress",
+        "bioLabel": "Om mig",
+        "avatarHelp": "Klicka för att ladda upp en ny profilbild",
+        "save": "Spara ändringar",
+        "cancel": "Avbryt"
+      }
+    },
+    "language": {
+      "title": "Språk",
+      "select": "Välj språk"
+    },
+    "notifications": {
+      "title": "Notiser",
+      "email": "E-postnotiser",
+      "platform": "Plattformsnotiser"
+    },
+    "privacy": {
+      "title": "Integritet",
+      "shareReflections": "Dela reflektioner med mentor",
+      "publicProfile": "Offentlig profil"
+    },
+    "theme": {
+      "title": "Tema",
+      "light": "Ljust",
+      "dark": "Mörkt"
+    }
+  },
+  "navigation": {
+    "items": {
+      "dashboard": "Dashboard",
+      "reflect": "Reflektioner",
+      "learning": "Lärande",
+      "groups": "Grupper",
+      "mentorship": "Mentorskap",
+      "settings": "Inställningar"
+    },
+    "profile": {
+      "student": "Student",
+      "mentor": "Mentor",
+      "teacher": "Lärare"
+    }
+  },
+  "reflect": {
+    "title": "Reflektioner",
+    "subtitle": "Utforska dina tankar och insikter",
+    "newReflection": "Ny reflektion",
+    "filters": {
+      "title": "Filter",
+      "type": "Typ",
+      "date": "Datum",
+      "tags": "Taggar"
+    },
+    "categories": {
+      "title": "Kategorier",
+      "daily": "Dagliga",
+      "philosophical": "Filosofiska",
+      "learning": "Lärande",
+      "project": "Projekt"
+    },
+    "empty": {
+      "message": "Börja din reflektionsresa genom att skapa en ny reflektion",
+      "start": "Skapa din första reflektion"
+    },
+    "backToList": "Tillbaka till reflektioner"
+  },
+  "editor": {
+    "types": {
+      "daily": "Daglig reflektion",
+      "philosophical": "Filosofisk utforskning",
+      "contemplative": "Kontemplativ insikt",
+      "project": "Projektreflektion",
+      "question": "Frågeställning",
+      "insight": "Spontan insikt",
+      "dream": "Drömreflektion",
+      "practice": "Övningsreflektion"
+    },
+    "moods": {
+      "placeholder": "Sinnesstämning...",
+      "calm": "Lugn 😌",
+      "curious": "Nyfiken 🤔",
+      "inspired": "Inspirerad ✨",
+      "confused": "Förvirrad 😕",
+      "concerned": "Orolig 😟"
+    },
+    "privacy": {
+      "private": "Privat",
+      "mentor": "Dela med mentor",
+      "group": "Dela med grupp",
+      "public": "Offentlig"
+    },
+    "markdown": {
+      "help": "Markdown-guide",
+      "bold": "fet text",
+      "italic": "kursiv text",
+      "list": "punktlista",
+      "quote": "citat",
+      "link": "länk",
+      "image": "bild"
+    },
+    "placeholder": "Skriv din reflektion här...",
+    "tags": {
+      "add": "Lägg till taggar...",
+      "button": "Lägg till"
+    },
+    "save": {
+      "button": "Spara",
+      "lastSaved": "Senast sparad: {time}"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "learningJourney": {
+      "title": "Läranderesa",
+      "activePaths": "{count, plural, =1 {# aktiv väg} other {# aktiva vägar}}",
+      "currentFocus": "Aktuellt fokus",
+      "philosophicalInquiry": "Filosofisk undersökning"
+    },
+    "groupActivities": {
+      "title": "Gruppaktiviteter",
+      "activeGroups": "{count, plural, =1 {# aktiv grupp} other {# aktiva grupper}}",
+      "philosophyCircle": "Filosoficirkeln",
+      "nextMeeting": "Nästa möte om {days, plural, =1 {# dag} other {# dagar}}"
+    },
+    "mentorConnection": {
+      "title": "Mentorkoppling",
+      "unreadMessages": "{count, plural, =1 {# oläst meddelande} other {# olästa meddelanden}}",
+      "availableForChat": "Tillgänglig för chat"
+    },
+    "recentReflections": {
+      "title": "Senaste reflektioner",
+      "viewAll": "Visa alla",
+      "timeAgo": "{time} sedan",
+      "morningReflection": "Morgonreflektion",
+      "tags": {
+        "philosophy": "Filosofi",
+        "consciousness": "Medvetande"
+      }
+    },
+    "navigation": {
+      "layout": "Layoutvy"
+    }
+  }
+}

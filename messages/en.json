@@ -1,0 +1,167 @@
+{
+  "common": {
+    "language": {
+      "select": "Select language",
+      "sv": "Swedish",
+      "en": "English"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "common": {
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "profile": {
+      "title": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "bio": "About me",
+      "role": "Role"
+    },
+    "language": {
+      "title": "Language",
+      "select": "Select language"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "email": "Email notifications",
+      "platform": "Platform notifications"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "shareReflections": "Share reflections with mentor",
+      "publicProfile": "Public profile"
+    },
+    "theme": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark"
+    }
+  },
+  "navigation": {
+    "items": {
+      "dashboard": "Dashboard",
+      "reflect": "Reflections",
+      "learning": "Learning",
+      "groups": "Groups",
+      "mentorship": "Mentorship",
+      "settings": "Settings"
+    },
+    "profile": {
+      "student": "Student",
+      "mentor": "Mentor",
+      "teacher": "Teacher",
+      "edit": {
+        "title": "Edit Profile",
+        "nameLabel": "Name",
+        "emailLabel": "Email address",
+        "bioLabel": "About me",
+        "avatarHelp": "Click to upload a new profile picture",
+        "save": "Save changes",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "reflect": {
+    "title": "Reflections",
+    "subtitle": "Explore your thoughts and insights",
+    "newReflection": "New reflection",
+    "filters": {
+      "title": "Filters",
+      "type": "Type",
+      "date": "Date",
+      "tags": "Tags"
+    },
+    "categories": {
+      "title": "Categories",
+      "daily": "Daily",
+      "philosophical": "Philosophical",
+      "learning": "Learning",
+      "project": "Project"
+    },
+    "empty": {
+      "message": "Start your reflection journey by creating a new reflection",
+      "start": "Create your first reflection"
+    },
+    "backToList": "Back to reflections"
+  },
+  "editor": {
+    "types": {
+      "daily": "Daily Reflection",
+      "philosophical": "Philosophical Exploration",
+      "contemplative": "Contemplative Insight",
+      "project": "Project Reflection",
+      "question": "Question",
+      "insight": "Spontaneous Insight",
+      "dream": "Dream Reflection",
+      "practice": "Practice Reflection"
+    },
+    "moods": {
+      "placeholder": "Mood...",
+      "calm": "Calm 😌",
+      "curious": "Curious 🤔",
+      "inspired": "Inspired ✨",
+      "confused": "Confused 😕",
+      "concerned": "Concerned 😟"
+    },
+    "privacy": {
+      "private": "Private",
+      "mentor": "Share with mentor",
+      "group": "Share with group",
+      "public": "Public"
+    },
+    "markdown": {
+      "help": "Markdown guide",
+      "bold": "bold text",
+      "italic": "italic text",
+      "list": "bullet list",
+      "quote": "quote",
+      "link": "link",
+      "image": "image"
+    },
+    "placeholder": "Write your reflection here...",
+    "tags": {
+      "add": "Add tags...",
+      "button": "Add"
+    },
+    "save": {
+      "button": "Save",
+      "lastSaved": "Last saved: {time}"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "learningJourney": {
+      "title": "Learning Journey",
+      "activePaths": "{count, plural, =1 {# active path} other {# active paths}}",
+      "currentFocus": "Current Focus",
+      "philosophicalInquiry": "Philosophical Inquiry"
+    },
+    "groupActivities": {
+      "title": "Group Activities",
+      "activeGroups": "{count, plural, =1 {# active group} other {# active groups}}",
+      "philosophyCircle": "Philosophy Circle",
+      "nextMeeting": "Next meeting in {days, plural, =1 {# day} other {# days}}"
+    },
+    "mentorConnection": {
+      "title": "Mentor Connection",
+      "unreadMessages": "{count, plural, =1 {# unread message} other {# unread messages}}",
+      "availableForChat": "Available for chat"
+    },
+    "recentReflections": {
+      "title": "Recent Reflections",
+      "viewAll": "View all",
+      "timeAgo": "{time} ago",
+      "morningReflection": "Morning Reflection",
+      "tags": {
+        "philosophy": "Philosophy",
+        "consciousness": "Consciousness"
+      }
+    },
+    "navigation": {
+      "layout": "Layout view"
+    }
+  }
+}
