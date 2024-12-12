@@ -5,6 +5,10 @@ MU is a digital platform designed to transform education by integrating existent
 
 ### 🚀 Features
 
+- **Philosophical Exploration**: Structured learning paths and guided reflections
+- **Learning Paths**: Tracked progress in different areas of study
+- **Group Learning**: Collaborative spaces for shared learning experiences
+- **Mentorship**: Connect with mentors and schedule guidance sessions
 - **Reflection Tools**: Advanced journaling with support for various reflection types
 - **Multi-language Support**: Built-in internationalization (currently Swedish and English)
 - **Privacy Controls**: Granular sharing settings for reflections

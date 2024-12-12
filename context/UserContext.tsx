@@ -52,6 +52,7 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   // Load saved preferences from localStorage
   useEffect(() => {
@@ -60,6 +61,12 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
         const savedPrefs = localStorage.getItem('userPreferences');
         if (savedPrefs) {
           setPreferences(JSON.parse(savedPrefs));
+        } else {
+          // If no saved preferences, use the current locale as default language
+          setPreferences(prev => ({
+            ...prev,
+            language: router.locale || 'sv'
+          }));
         }
         
         // Load mock profile data (replace with real auth later)
@@ -75,30 +82,37 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
         console.error('Error loading preferences:', error);
       }
       setIsLoading(false);
+      setIsInitialized(true);
     };
 
     loadSavedPreferences();
-  }, []);
+  }, [router.locale]);
 
   // Save preferences to localStorage when they change
   useEffect(() => {
-    localStorage.setItem('userPreferences', JSON.stringify(preferences));
+    if (!isInitialized) return;
     
-    // Update language if it changed
-    if (router.locale !== preferences.language) {
-      router.push(router.pathname, router.asPath, { locale: preferences.language });
-    }
-  }, [preferences, router]);
+    localStorage.setItem('userPreferences', JSON.stringify(preferences));
+  }, [preferences, isInitialized]);
 
   const updateProfile = (newProfile: Partial<UserProfile>) => {
     setProfile(prev => prev ? { ...prev, ...newProfile } : null);
   };
 
   const updatePreferences = (newPreferences: Partial<UserPreferences>) => {
-    setPreferences(prev => ({
-      ...prev,
-      ...newPreferences,
-    }));
+    setPreferences(prev => {
+      const updated = {
+        ...prev,
+        ...newPreferences,
+      };
+
+      // If language is being updated, update the router locale
+      if (newPreferences.language && newPreferences.language !== prev.language) {
+        router.push(router.pathname, router.asPath, { locale: newPreferences.language });
+      }
+
+      return updated;
+    });
   };
 
   return (

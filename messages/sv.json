@@ -53,6 +53,7 @@
     "items": {
       "dashboard": "Dashboard",
       "reflect": "Reflektioner",
+      "philosophical": "Filosofi",
       "learning": "Lärande",
       "groups": "Grupper",
       "mentorship": "Mentorskap",
@@ -61,7 +62,17 @@
     "profile": {
       "student": "Student",
       "mentor": "Mentor",
-      "teacher": "Lärare"
+      "teacher": "Lärare",
+      "undefined": "Användare",
+      "edit": {
+        "title": "Redigera profil",
+        "nameLabel": "Namn",
+        "emailLabel": "E-postadress",
+        "bioLabel": "Om mig",
+        "avatarHelp": "Klicka för att ladda upp en ny profilbild",
+        "save": "Spara ändringar",
+        "cancel": "Avbryt"
+      }
     }
   },
   "reflect": {
@@ -162,6 +173,203 @@
     },
     "navigation": {
       "layout": "Layoutvy"
+    }
+  },
+  "prompts": {
+    "philosophical": {
+      "title": "Filosofiskt utforskande",
+      "placeholder": "Dela dina tankar här...",
+      "saveReflection": "Spara reflektion",
+      "supportingQuestions": "Frågor att fundera över",
+      "examples": "Exempel på reflektion",
+      "yourThoughts": "Dina tankar",
+      "previous": "Föregående steg",
+      "continue": "Fortsätt",
+      "finish": "Slutför reflektion",
+      "initial": {
+        "title": "Första tankar",
+        "description": "Börja med att utforska dina första tankar kring denna fråga.",
+        "prompt": "Vad kommer du att tänka på när du först möter denna fråga?",
+        "guidance": "Oroa dig inte för att hitta 'rätt' svar - fokusera på ditt autentiska gensvar."
+      },
+      "explore": {
+        "title": "Djupare utforskning",
+        "description": "Låt oss undersöka dina första tankar mer noggrant.",
+        "prompt": "Vilka antaganden ligger bakom ditt första svar? Vad kan du ta för givet?",
+        "guidance": "Överväg olika perspektiv och möjliga motargument."
+      },
+      "insight": {
+        "title": "Personlig insikt",
+        "description": "Reflektera över vad du upptäckt genom denna utforskning.",
+        "prompt": "Hur har din förståelse utvecklats? Vilka nya frågor har uppstått?",
+        "guidance": "Koppla dessa insikter till din egen erfarenhet och förståelse."
+      },
+      "guidance": {
+        "title": "Utforskningsguide",
+        "personal": "Utgå från din egen erfarenhet och dina frågor",
+        "pace": "Ta din tid - djupt tänkande kan inte påskyndas",
+        "depth": "Känn dig fri att utforska så djupt som känns rätt för dig"
+      },
+      "levels": {
+        "personal": {
+          "name": "Personlig erfarenhet",
+          "description": "Börja med dina egna erfarenheter och observationer",
+          "examples": [
+            "När jag tittar på stjärnorna undrar jag...",
+            "Detta påminner mig om en gång när...",
+            "Enligt min erfarenhet..."
+          ],
+          "supporting": [
+            "Vilka erfarenheter i ditt liv relaterar till denna fråga?",
+            "Hur får detta dig att känna?",
+            "Vilka berättelser eller minnen dyker upp?"
+          ]
+        },
+        "analytical": {
+          "name": "Analytiskt tänkande",
+          "description": "Undersök frågan genom logisk analys",
+          "examples": [
+            "Vi kan överväga flera perspektiv...",
+            "Detta väcker frågor om...",
+            "Om vi ser det systematiskt..."
+          ],
+          "supporting": [
+            "Vilka är de centrala koncepten?",
+            "Hur kan vi bryta ner detta?",
+            "Vilka antaganden gör vi?"
+          ]
+        },
+        "contemplative": {
+          "name": "Djup kontemplation",
+          "description": "Utforska de djupare implikationerna och betydelserna",
+          "examples": [
+            "I kärnan av denna fråga ligger...",
+            "Detta kopplar till grundläggande frågor om...",
+            "När jag sitter med denna fråga framträder..."
+          ],
+          "supporting": [
+            "Vad ligger under ytan på denna fråga?",
+            "Hur relaterar detta till existensen själv?",
+            "Vilka djupare sanningar kan detta peka mot?"
+          ]
+        }
+      }
+    }
+  },
+  "wisdom": {
+    "title": "Visdomsvägar",
+    "viewModes": {
+      "paths": "Lärandevägar",
+      "library": "Frågebibliotek"
+    },
+    "search": {
+      "placeholder": "Sök frågor och ämnen..."
+    },
+    "progress": "{completed} av {total} slutförda",
+    "paths": {
+      "metaphysical": {
+        "name": "Metafysiskt utforskande",
+        "description": "Utforska grundläggande frågor om existens, verklighet och varande",
+        "questions": {
+          "existence": {
+            "title": "Varför finns något överhuvudtaget?",
+            "description": "En utforskning av den mest grundläggande existentiella frågan"
+          }
+        }
+      },
+      "epistemological": {
+        "name": "Kunskap & förståelse",
+        "description": "Undersök hur vi vet det vi vet",
+        "questions": {
+          "certainty": {
+            "title": "Kan vi vara säkra på något?",
+            "description": "Undersökning av kunskapens och visshetens grunder"
+          }
+        }
+      }
+    }
+  },
+  "philosophical": {
+    "title": "Filosofiskt utforskande",
+    "viewModes": {
+      "prompt": "Guidad reflektion",
+      "paths": "Visdomsvägar"
+    },
+    "descriptions": {
+      "prompt": "Delta i guidad filosofisk reflektion med anpassat stöd för din undersökande resa.",
+      "paths": "Utforska sammankopplade filosofiska frågor genom strukturerade lärandevägar eller fri utforskning."
+    }
+  },
+  "learning": {
+    "title": "Lärandevägar",
+    "subtitle": "Utforska olika sätt att lära och utvecklas",
+    "completed": "slutfört",
+    "paths": {
+      "philosophical": {
+        "title": "Filosofiskt utforskande",
+        "description": "Utforska grundläggande frågor och utveckla kritiskt tänkande genom strukturerad filosofisk undersökning"
+      },
+      "collaborative": {
+        "title": "Kollaborativt lärande",
+        "description": "Lär tillsammans med andra genom gruppdiskussioner, delade projekt och kamratrespons"
+      },
+      "personal": {
+        "title": "Personlig utveckling",
+        "description": "Fokusera på din individuella utveckling genom självreflektion, målsättning och strukturerade utvecklingsplaner"
+      }
+    }
+  },
+  "groups": {
+    "title": "Grupper",
+    "subtitle": "Gå med i studiegrupper och delta i gemensamma diskussioner",
+    "createGroup": "Skapa grupp",
+    "members": "medlemmar",
+    "discussions": "diskussioner",
+    "nextMeeting": "Nästa möte",
+    "more": "till",
+    "groups": {
+      "philosophyCircle": {
+        "name": "Filosoficirkeln",
+        "description": "Veckovisa diskussioner om grundläggande filosofiska frågor och deras praktiska tillämpningar",
+        "nextTopic": "Medvetandets natur och fri vilja"
+      },
+      "studyGroup": {
+        "name": "Kontemplativ praktikgrupp",
+        "description": "Regelbundna möten för gemensam meditation och mindfulnessövningar",
+        "nextTopic": "Utforskande av olika meditationstekniker"
+      }
+    }
+  },
+  "mentorship": {
+    "title": "Mentorskap",
+    "subtitle": "Koppla upp dig med erfarna mentorer och få vägledning på din läranderesa",
+    "requestMentor": "Efterfråga mentor",
+    "availableMentors": "Tillgängliga mentorer",
+    "upcomingSessions": "Kommande sessioner",
+    "with": "med",
+    "mentees": "adepter",
+    "connect": "Koppla upp",
+    "upcoming": "Kommande",
+    "completed": "Avslutad",
+    "availability": {
+      "available": "Tillgänglig",
+      "limited": "Begränsad tillgänglighet",
+      "unavailable": "Otillgänglig"
+    },
+    "mentors": {
+      "philosopher": {
+        "title": "Filosofisk vägledare",
+        "bio": "Erfaren i att guida filosofiska undersökningar och främja kritiskt tänkande"
+      },
+      "practitioner": {
+        "title": "Meditations- och mindfulnessvägledare",
+        "bio": "Specialiserad på kontemplativa praktiker och personlig utveckling"
+      }
+    },
+    "sessions": {
+      "philosophical": {
+        "topic": "Utforskande av medvetande och fri vilja"
+      }
     }
   }
 }

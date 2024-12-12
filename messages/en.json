@@ -44,6 +44,7 @@
     "items": {
       "dashboard": "Dashboard",
       "reflect": "Reflections",
+      "philosophical": "Philosophy",
       "learning": "Learning",
       "groups": "Groups",
       "mentorship": "Mentorship",
@@ -53,6 +54,7 @@
       "student": "Student",
       "mentor": "Mentor",
       "teacher": "Teacher",
+      "undefined": "User",
       "edit": {
         "title": "Edit Profile",
         "nameLabel": "Name",
@@ -162,6 +164,193 @@
     },
     "navigation": {
       "layout": "Layout view"
+    }
+  },
+  "prompts": {
+    "philosophical": {
+      "title": "Philosophical Inquiry",
+      "placeholder": "Write your thoughts here...",
+      "previous": "Previous Step",
+      "continue": "Continue",
+      "finish": "Complete Reflection",
+      "initial": {
+        "title": "Initial Thoughts",
+        "description": "Begin by exploring your first thoughts about this question.",
+        "prompt": "What comes to mind when you first consider this question?",
+        "guidance": "Don't worry about finding the 'right' answer - focus on your authentic response."
+      },
+      "explore": {
+        "title": "Deeper Exploration",
+        "description": "Let's examine your initial thoughts more carefully.",
+        "prompt": "What assumptions underlie your initial response? What might you be taking for granted?",
+        "guidance": "Consider different perspectives and possible counterarguments."
+      },
+      "insight": {
+        "title": "Personal Insight",
+        "description": "Reflect on what you've discovered through this exploration.",
+        "prompt": "How has your understanding evolved? What new questions have emerged?",
+        "guidance": "Connect these insights to your own experience and understanding."
+      },
+      "levels": {
+        "personal": {
+          "name": "Personal Experience",
+          "description": "Begin with your own experiences and observations",
+          "examples": [
+            "When I look at the stars, I wonder...",
+            "This reminds me of a time when...",
+            "In my experience..."
+          ],
+          "supporting": [
+            "What experiences in your life relate to this question?",
+            "How does this make you feel?",
+            "What stories or memories come to mind?"
+          ]
+        },
+        "analytical": {
+          "name": "Analytical Thinking",
+          "description": "Examine the question through logical analysis",
+          "examples": [
+            "We might consider several perspectives...",
+            "This raises questions about...",
+            "Looking at it systematically..."
+          ],
+          "supporting": [
+            "What are the key concepts involved?",
+            "How might we break this down?",
+            "What assumptions are we making?"
+          ]
+        },
+        "contemplative": {
+          "name": "Deep Contemplation",
+          "description": "Explore the deeper implications and meanings",
+          "examples": [
+            "At the heart of this question lies...",
+            "This connects to fundamental questions about...",
+            "Sitting with this question reveals..."
+          ],
+          "supporting": [
+            "What lies beneath this question?",
+            "How does this relate to existence itself?",
+            "What deeper truths might this point to?"
+          ]
+        }
+      }
+    }
+  },
+  "wisdom": {
+    "title": "Wisdom Paths",
+    "viewModes": {
+      "paths": "Learning Paths",
+      "library": "Question Library"
+    },
+    "search": {
+      "placeholder": "Search questions and topics..."
+    },
+    "progress": "{completed} of {total} complete",
+    "paths": {
+      "metaphysical": {
+        "name": "Metaphysical Inquiry",
+        "description": "Explore fundamental questions about existence, reality, and being",
+        "questions": {
+          "existence": {
+            "title": "Why does anything exist at all?",
+            "description": "An exploration of the most fundamental question of existence"
+          }
+        }
+      },
+      "epistemological": {
+        "name": "Knowledge & Understanding",
+        "description": "Investigate how we know what we know",
+        "questions": {
+          "certainty": {
+            "title": "Can we be certain of anything?",
+            "description": "Examining the foundations of knowledge and certainty"
+          }
+        }
+      }
+    }
+  },
+  "philosophical": {
+    "title": "Philosophical Exploration",
+    "viewModes": {
+      "prompt": "Guided Reflection",
+      "paths": "Wisdom Paths"
+    },
+    "descriptions": {
+      "prompt": "Engage in guided philosophical reflection with adaptive support for your journey of inquiry.",
+      "paths": "Explore interconnected philosophical questions through structured learning paths or free exploration."
+    }
+  },
+  "learning": {
+    "title": "Learning Paths",
+    "subtitle": "Explore different approaches to learning and personal development",
+    "completed": "completed",
+    "paths": {
+      "philosophical": {
+        "title": "Philosophical Inquiry",
+        "description": "Explore fundamental questions and develop critical thinking through structured philosophical investigation"
+      },
+      "collaborative": {
+        "title": "Collaborative Learning",
+        "description": "Learn together with others through group discussions, shared projects, and peer feedback"
+      },
+      "personal": {
+        "title": "Personal Development",
+        "description": "Focus on your individual growth through self-reflection, goal-setting, and structured development plans"
+      }
+    }
+  },
+  "groups": {
+    "title": "Groups",
+    "subtitle": "Join learning groups and participate in collaborative discussions",
+    "createGroup": "Create Group",
+    "members": "members",
+    "discussions": "discussions",
+    "nextMeeting": "Next Meeting",
+    "more": "more",
+    "groups": {
+      "philosophyCircle": {
+        "name": "Philosophy Circle",
+        "description": "Weekly discussions about fundamental philosophical questions and their practical implications",
+        "nextTopic": "The nature of consciousness and free will"
+      },
+      "studyGroup": {
+        "name": "Contemplative Practice Group",
+        "description": "Regular meetings for shared meditation and mindfulness practices",
+        "nextTopic": "Exploring different meditation techniques"
+      }
+    }
+  },
+  "mentorship": {
+    "title": "Mentorship",
+    "subtitle": "Connect with experienced mentors and get guidance on your learning journey",
+    "requestMentor": "Request Mentor",
+    "availableMentors": "Available Mentors",
+    "upcomingSessions": "Upcoming Sessions",
+    "with": "with",
+    "mentees": "mentees",
+    "connect": "Connect",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "availability": {
+      "available": "Available",
+      "limited": "Limited Availability",
+      "unavailable": "Unavailable"
+    },
+    "mentors": {
+      "philosopher": {
+        "title": "Philosophical Guide",
+        "bio": "Experienced in guiding philosophical inquiries and fostering critical thinking"
+      },
+      "practitioner": {
+        "title": "Meditation & Mindfulness Guide",
+        "bio": "Specializes in contemplative practices and personal development"
+      }
+    },
+    "sessions": {
+      "philosophical": {
+        "topic": "Exploring Consciousness and Free Will"
+      }
     }
   }
 }

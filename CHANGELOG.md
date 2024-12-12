@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## [0.3.0] - 2024-12-12
+
+### Added
+- Philosophical exploration page with dual view:
+  - Wisdom Paths explorer for structured learning paths
+  - Adaptive Philosophical Prompt for guided reflection
+- Learning paths overview page with progress tracking
+- Groups page with collaborative learning features
+- Mentorship page with mentor matching and session scheduling
+- Fixed language switching functionality across the platform
+
+### Changed
+- Improved navigation with consistent styling across new pages
+- Enhanced user experience with proper view transitions
+- Expanded internationalization coverage for new features
+
+### Technical Details
+- Implemented dynamic component loading for main features
+- Added proper state management for language preferences
+- Created reusable card components for various views
+- Extended translation system to cover new functionality
+
 ## [0.2.0] - 2024-11-13
 
 ### Added

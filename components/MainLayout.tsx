@@ -1,3 +1,5 @@
+console.log('Loading MainLayout');
+
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
@@ -5,6 +7,7 @@ import { useRouter } from 'next/router';
 import {
   Home,
   BookOpen,
+  Compass,
   Users,
   MessageSquare,
   Settings,
@@ -29,6 +32,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
   const mainNavigation = [
     { name: 'dashboard', href: '/', icon: Home },
     { name: 'reflect', href: '/reflect', icon: BookOpen },
+    { name: 'philosophical', href: '/philosophical', icon: Compass },
     { name: 'learning', href: '/learning', icon: GraduationCap },
     { name: 'groups', href: '/groups', icon: Users },
     { name: 'mentorship', href: '/mentorship', icon: MessageSquare }

@@ -1,11 +1,14 @@
+// components/LanguageSwitcher.tsx
 import React from 'react';
 import { useRouter } from 'next/router';
 import { Globe } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { useUser } from '../context/UserContext';
 
 const LanguageSwitcher = () => {
   const router = useRouter();
   const t = useTranslations('common');
+  const { updatePreferences } = useUser();
   
   const languages = [
     { code: 'sv', name: 'Svenska' },
@@ -13,8 +16,8 @@ const LanguageSwitcher = () => {
   ];
 
   const switchLanguage = (locale: string) => {
-    const path = router.asPath;
-    router.push(path, path, { locale });
+    // Update the user preferences which will handle the routing
+    updatePreferences({ language: locale });
   };
 
   return (
@@ -24,6 +27,7 @@ const LanguageSwitcher = () => {
         value={router.locale}
         onChange={(e) => switchLanguage(e.target.value)}
         className="text-sm bg-transparent border-none focus:ring-0 cursor-pointer text-gray-700 hover:text-primary-600"
+        aria-label={t('language.select')}
       >
         {languages.map((lang) => (
           <option key={lang.code} value={lang.code}>
