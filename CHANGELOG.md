@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [0.3.1] - 2024-12-30
+
+### Added
+- Spiritual, religious, and mystical dimensions to the core philosophical content structure
+- New addendum document outlining spiritual and contemplative aspects
+- Framework for spiritual questions and inquiry
+- Foundation for contemplative practice integration
+
+### Changed
+- Expanded scope of philosophical exploration to include spiritual dimensions
+- Enhanced content structure to accommodate religious and mystical inquiry
+
 ## [0.3.0] - 2024-12-12
 
 ### Added
