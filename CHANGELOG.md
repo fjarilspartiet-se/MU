@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## [0.3.2] - 2024-12-31
+
+### Added
+- New meditation timer component with:
+  - Interval bell support
+  - Guided meditation integration
+  - Multiple presets for different practices
+  - Sound controls and settings
+- Practice dashboard for tracking meditation progress
+- Integrated practice page with dual view (dashboard/timer)
+
+### Changed
+- Fixed layout issues in MainLayout component
+- Improved responsive behavior of sidebar navigation
+- Enhanced internationalization coverage for meditation features
+
+### Technical Details
+- Implemented audio handling for meditation features
+- Added practice-specific translation keys
+- Improved layout structure for better content positioning
+- Created reusable meditation timer component
+
 ## [0.3.1] - 2024-12-30
 
 ### Added

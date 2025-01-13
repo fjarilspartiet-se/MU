@@ -7,6 +7,7 @@ MU is a digital platform designed to transform education by integrating existent
 
 - **Philosophical Exploration**: Structured learning paths and guided reflections, including spiritual and contemplative dimensions
 - **Learning Paths**: Tracked progress in different areas of study, including philosophical, spiritual, and contemplative paths
+- **Meditation Practice**: Timer with interval bells, guided sessions, and progress tracking
 - **Group Learning**: Collaborative spaces for shared learning experiences
 - **Mentorship**: Connect with mentors and schedule guidance sessions
 - **Reflection Tools**: Advanced journaling with support for various reflection types

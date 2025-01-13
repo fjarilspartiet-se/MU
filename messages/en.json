@@ -43,6 +43,7 @@
   "navigation": {
     "items": {
       "dashboard": "Dashboard",
+      "practice": "Practice",
       "reflect": "Reflections",
       "philosophical": "Philosophy",
       "learning": "Learning",
@@ -351,6 +352,82 @@
       "philosophical": {
         "topic": "Exploring Consciousness and Free Will"
       }
+    }
+  },
+  "practice": {
+    "title": "Practice",
+    "views": {
+      "dashboard": "Overview",
+      "timer": "Timer"
+    },
+    "descriptions": {
+      "dashboard": "Track your meditation practice and progress",
+      "timer": "Start a new meditation session"
+    },
+    "dashboard": {
+      "title": "Practice Dashboard",
+      "subtitle": "Track your meditation practice and progress",
+      "newSession": "New Session"
+    },
+    "stats": {
+      "totalSessions": "Total Sessions",
+      "totalMinutes": "Total Minutes",
+      "averageSession": "Average Session",
+      "currentStreak": "Current Streak"
+    },
+    "recentPractice": {
+      "title": "Recent Practice"
+    },
+    "periods": {
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "resources": {
+      "title": "Resources",
+      "guidelines": "Practice Guidelines",
+      "community": "Community Support"
+    },
+    "nextSteps": {
+      "title": "Next Steps",
+      "suggestion": "Try a guided meditation",
+      "description": "Explore our collection of guided practices"
+    }
+  },
+  "meditation": {
+    "types": {
+      "timer": "Timer",
+      "guided": "Guided"
+    },
+    "timer": {
+      "title": "Meditation Timer",
+      "minutes": "minutes",
+      "start": "Start",
+      "pause": "Pause",
+      "reset": "Reset"
+    },
+    "guided": {
+      "title": "Guided Meditations",
+      "basicMindfulness": "Basic Mindfulness",
+      "lovingKindness": "Loving-Kindness Practice",
+      "selectGuide": "Select a guided meditation"
+    },
+    "presets": {
+      "title": "Practice Presets",
+      "mindfulness": "Mindfulness",
+      "breath": "Breath Awareness",
+      "bodyScan": "Body Scan",
+      "lovingKindness": "Loving-Kindness"
+    },
+    "settings": {
+      "title": "Timer Settings",
+      "sound": "Timer Sound",
+      "interval": "Interval Bells",
+      "endBell": "Ending Bell",
+      "intervalBells": "Interval Bells",
+      "noBells": "No interval bells",
+      "minutes": "minutes",
+      "volume": "Volume"
     }
   }
 }

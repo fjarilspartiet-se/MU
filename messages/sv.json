@@ -52,6 +52,7 @@
   "navigation": {
     "items": {
       "dashboard": "Dashboard",
+      "practice": "Praktik",
       "reflect": "Reflektioner",
       "philosophical": "Filosofi",
       "learning": "Lärande",
@@ -370,6 +371,82 @@
       "philosophical": {
         "topic": "Utforskande av medvetande och fri vilja"
       }
+    }
+  },
+  "practice": {
+    "title": "Praktik",
+    "views": {
+      "dashboard": "Översikt",
+      "timer": "Timer"
+    },
+    "descriptions": {
+      "dashboard": "Följ din meditationspraktik och utveckling",
+      "timer": "Starta en ny meditationssession"
+    },
+    "dashboard": {
+      "title": "Övningspanel",
+      "subtitle": "Följ din meditationspraxis och utveckling",
+      "newSession": "Ny session"
+    },
+    "stats": {
+      "totalSessions": "Totala sessioner",
+      "totalMinutes": "Totala minuter",
+      "averageSession": "Genomsnittlig session",
+      "currentStreak": "Nuvarande serie"
+    },
+    "recentPractice": {
+      "title": "Senaste övningar"
+    },
+    "periods": {
+      "week": "Vecka",
+      "month": "Månad",
+      "year": "År"
+    },
+    "resources": {
+      "title": "Resurser",
+      "guidelines": "Övningsriktlinjer",
+      "community": "Gemenskapsstöd"
+    },
+    "nextSteps": {
+      "title": "Nästa steg",
+      "suggestion": "Prova en guidad meditation",
+      "description": "Utforska vår samling av guidade övningar"
+    }
+  },
+  "meditation": {
+    "types": {
+      "timer": "Timer",
+      "guided": "Guidad"
+    },
+    "timer": {
+      "title": "Meditationstimer",
+      "minutes": "minuter",
+      "start": "Starta",
+      "pause": "Pausa",
+      "reset": "Återställ"
+    },
+    "guided": {
+      "title": "Guidade meditationer",
+      "basicMindfulness": "Enkel mindfulness",
+      "lovingKindness": "Kärleksfull vänlighetsövning",
+      "selectGuide": "Välj en guidad meditation"
+    },
+    "presets": {
+      "title": "Övningsmallar",
+      "mindfulness": "Mindfulness",
+      "breath": "Andningsmedvetenhet",
+      "bodyScan": "Kroppsskanning",
+      "lovingKindness": "Kärleksfull vänlighet"
+    },
+    "settings": {
+      "title": "Timerinställningar",
+      "sound": "Timerljud",
+      "interval": "Intervallklockor",
+      "endBell": "Avslutande klocka",
+      "intervalBells": "Intervallklockor",
+      "noBells": "Inga intervallklockor",
+      "minutes": "minuter",
+      "volume": "Volym"
     }
   }
 }
